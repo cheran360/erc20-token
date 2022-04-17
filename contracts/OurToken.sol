@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract OurToken is ERC20 {
     // wei
-    constructor(uint256 initialSupply) ERC20("Gold", "GLD") {
+    constructor(uint256 initialSupply) ERC20("OurToken", "OTD") {
         _mint(msg.sender, initialSupply);
     }
 }
